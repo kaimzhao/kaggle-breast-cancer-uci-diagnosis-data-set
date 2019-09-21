@@ -45,11 +45,11 @@ Training set are explored through following data visualization techniques:
 2. **Pairplot**: explore the difference between malignant and benign cell with two features combined.
 ![pairplot](./image/part_1_-_pairplot.png)
 
-3. **Heatmap**: explore the co-linearity among features. Radius, area, and perimeter are perfectly correlated as expected. About 50% of the features have strong correlation among each other (i.e., correlation coefficient > 0.5)
+3. **Heatmap**: explore the co-linearity among features. Radius, area, and perimeter are perfectly correlated as expected. About 50% of the features have strong correlation among each other (i.e., correlation coefficient > 0.5).
 ![heatmap](./part_1_-_heatmap.png)
 
 4. **3D-plot**: explore the difference between malignant and benign cell with three features combined. Used the three features (i.e., smoothness_worst, texture_mean, and area_worst) selected in the 1994 paper.
-![3d-plot](./part_1_-_3d_plot.png)
+![3d-plot](./part_2_-_3d_plot.gif)
 
 ### 5. Model Data
 #### 5.1 Feature Selection (Classic Model)
