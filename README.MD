@@ -1,7 +1,7 @@
 # kaggle-breast-cancer-uci-diagnosis-data-set
 
 ## Executive Summary
-This is my capstone project at General Assembly’s Data Science Immersive program. I built machine learning (ML) models to classify breast cancer used in a ML paper published by the UCI professors in 1994. After studying the paper, I reproduced the model using support vector machine with the same feature selection and achieved the identical accuracy of 97.5%. Then, I rebuilt the model using deep neural network algorithm with feature extraction mechanism and further improved upon the accuracy achieved in the paper. A common and impactful data-leakage mistake during data cross-validation, for which I published my finding with a straight-forward solution on [TowardsDataScience.com]((https://towardsdatascience.com/pre-process-data-with-pipeline-to-prevent-data-leakage-during-cross-validation-e3442cca7fdc).
+This is my capstone project at General Assembly’s Data Science Immersive program. I built machine learning (ML) models to classify breast cancer used in a ML paper published by the UCI professors in 1994. After studying the paper, I reproduced the model using support vector machine with the same feature selection and achieved the identical accuracy of 97.5%. Then, I rebuilt the model using deep neural network algorithm with feature extraction mechanism and further improved upon the accuracy achieved in the paper. A common and impactful data-leakage mistake during data cross-validation, for which I published my finding with a straight-forward solution on [TowardsDataScience.com](https://towardsdatascience.com/pre-process-data-with-pipeline-to-prevent-data-leakage-during-cross-validation-e3442cca7fdc).
 
 ## Repo Structure
 ```
