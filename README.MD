@@ -40,16 +40,16 @@ The mean, standard error and "worst" or largest (mean of the three largest value
 ### 4. Explore Data
 Training set are explored through following data visualization techniques:
 1. **Boxplot**: visualize the difference between malignant and benign cell for a single feature. Except 'fractal_dimension_mean', malignant cell has higher median and max values than benign cells for every features. Outliers are observed. Since these outliers are not invalid data, they will not be removed for this Project.
-![boxplot](./image/part 1 - boxplot_mean.png)
+![boxplot](./image/part_1_-_boxplot_mean.png)
 
 2. **Pairplot**: explore the difference between malignant and benign cell with two features combined.
-![pairplot](./image/part 1 - pairplot.png)
+![pairplot](./image/part_1_-_pairplot.png)
 
 3. **Heatmap**: explore the co-linearity among features. Radius, area, and perimeter are perfectly correlated as expected. About 50% of the features have strong correlation among each other (i.e., correlation coefficient > 0.5)
-![heatmap](./part 1 - heatmap.png)
+![heatmap](./part_1_-_heatmap.png)
 
 4. **3D-plot**: explore the difference between malignant and benign cell with three features combined. Used the three features (i.e., smoothness_worst, texture_mean, and area_worst) selected in the 1994 paper.
-<iframe src="https://giphy.com/embed/gid5RuiMYr7oITXX8F" width="480" height="308" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gid5RuiMYr7oITXX8F">via GIPHY</a></p>
+![3d-plot](./part_1_-_3d_plot.png)
 
 ### 5. Model Data
 #### 5.1 Feature Selection (Classic Model)
